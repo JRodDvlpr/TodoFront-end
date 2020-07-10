@@ -1,0 +1,8 @@
+
+# dotenv environment variables file
+.env
+
+# Mac files
+.DS_Store
+
+*node_modules
