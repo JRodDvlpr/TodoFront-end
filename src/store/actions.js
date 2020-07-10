@@ -1,0 +1,9 @@
+import { axiosWithAuth } from '../utils/axiosWithAuth.js';
+
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS'
+export const REGISTER_SUCCESS = 'REGISTER_SUCCESS'
+export const GET_TODOLIST_SUCCESS = 'GET_TODOLIST_SUCCESS'
+export const GET_TODO_SUCCESS = 'GET_TODO_SUCCESS'
+export const ADD_TODO_SUCCESS = 'ADD_TODO_SUCCESS'
+export const EDIT_TODO_SUCCESS = 'EDIT_TODO_SUCCESS'
+export const DELETE_TODO_SUCCESS = 'DELETE_TODO_SUCCESS'
