@@ -1,14 +1,7 @@
-<<<<<<< HEAD
-
-# dotenv environment variables file
-.env
-
-# Mac files
-=======
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-node_modules
+/node_modules
 /.pnp
 .pnp.js
 
@@ -20,7 +13,6 @@ node_modules
 /build
 
 # misc
->>>>>>> 2c4d57971f0b9e652ca265eef1d68b43f1af3cc2
 .DS_Store
 .env.local
 .env.development.local
