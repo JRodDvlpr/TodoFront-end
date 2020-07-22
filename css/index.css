@@ -48,6 +48,7 @@
   }
   
   .top-logo{
+    height: auto;
     position: absolute;
     top: -7px;
     left: 35px;
@@ -83,7 +84,7 @@
   /* Main Header */
   .container{
     width: 97vw;
-    height: 100vh;
+    height: 500px;
     margin: 50px auto;
   
   }
@@ -130,21 +131,26 @@
   .card {
     margin: auto;
     border: 20px;
-    border-radius: 5px; 
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 15px; 
+    background-color: rgba(255, 255, 255, 0.938);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.678);
     width: 20%;
-    height: 70%;
+    height: 75%;
     transition: 0.3s;
+    text-align: center;
    
   }
-  .img-container{
-    margin: auto;
-
-  }
-  
+   
   /* Add rounded corners to the top left and the top right corner of the image */
   .img-card {
+    margin: 40px;
     border-radius: 5px 5px 0 0;
+}
+ .card-paragraph {
+  margin: auto;
+  padding: 5%;
+  height: auto;
+
 }
   
   
