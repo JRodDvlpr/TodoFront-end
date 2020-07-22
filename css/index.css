@@ -27,31 +27,24 @@
   
   body{
     box-sizing: border-box;
-    background-image: linear-gradient(to bottom, rgba(136, 152, 245, 0.52), rgba(45, 189, 64, 0.521)),
-    url(img/BackGround.png);
+    /* background-image: linear-gradient(to bottom, rgba(136, 152, 245, 0.52), rgba(45, 189, 64, 0.521));
+    back
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
-    background-position: right;
-  
-  
+    background-position: right; */
   }
   
-  .container{
-    width: 97vw;
-    height: 100vh;
-    margin: auto;
-  }
   
   
   
   .top-nav{
     /* border: 1px black solid;
     border-radius: 20px; */
+    /* width: 100%; */
     font-size: 25px;
     text-align: center;
     text-decoration: none;
     padding: 15px ;
-    position: relative;
   }
   
   .top-logo{
@@ -62,28 +55,98 @@
   
   nav a{
     margin: 0 12px;
+    /* text-align: center; */
   }
-  
+
   a:link{
     color: rgb(44, 43, 43);
     text-decoration: none;
   }
   
+  .sign-button{
+    float: right;
+    border: rgb(0, 186, 243) 2px solid;
+    border-radius: 30px;
+    margin: auto 0;
+    padding: 5px 10px;
+
+  }
+  
+  
   hr{
+    width: 100%;
     height: 12px;
     border: 0;
     box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
   }
+
+  /* Main Header */
+  .container{
+    width: 97vw;
+    height: 100vh;
+    margin: 50px auto;
   
-  header{
-    margin: auto;
-    padding: 50px;
+  }
+  
+
+  .heading-paragraph{
+    display: inline-block;
+    margin: 75px;
+  }
+
+  
+  .main-img{
+   margin: auto;
+   float: right;
   }
   
   .sub-main{
     padding: 15px;
   
   }
+  #learn-button{
+    margin: 100px auto;
+    padding: 0 25px;
+    border: #43b0fb 10px solid;
+    border-radius: 30px;
+    background-color: #43b0fb;
+    font-size: 2rem;
+  }
+
+   #banner{
+    width: 100vw;
+    height: 500px;
+    background-color:  #43b0fb;
+
+  } 
+
+  .row-1{
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+  }
+
+  .card {
+    margin: auto;
+    border: 20px;
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 20%;
+    height: 70%;
+    transition: 0.3s;
+   
+  }
+  .img-container{
+    margin: auto;
+
+  }
+  
+  /* Add rounded corners to the top left and the top right corner of the image */
+  .img-card {
+    border-radius: 5px 5px 0 0;
+}
+  
   
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
