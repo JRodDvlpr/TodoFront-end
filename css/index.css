@@ -63,14 +63,23 @@
     text-decoration: none;
   }
   a:hover{
-    color:rgb(0, 186, 243);
+    color:rgb(0, 0, 0);
+    background-color: #fbdc8e;
+    border: #fbdc8e 3px solid;
+    border-radius: 30px;
+    padding: 2px;
+    
+  }
+  a:visited{
+    text-decoration: none;
+    color: black;
   }
 
 
   
   .sign-in{
 
-    border: rgb(0, 186, 243) 2px solid;
+    border: #fbdc8e 2px solid;
     border-radius: 30px;
     margin: auto 0;
     padding: 5px 10px;
@@ -79,15 +88,15 @@
 
   .sign-in:hover{
     color: black;
-    background-color:rgb(0, 186, 243);
+    background-color:#fbdc8e;
   }
   
   
   hr{
     width: 100%;
-    height: 12px;
-    border: 0;
-    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    height: auto;
+    border: rgba(0, 0, 0, 0.521) 1px solid;
+    /* box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5); */
   }
 
   /* Main Header */
@@ -124,17 +133,16 @@
     margin: 100px auto;
     padding: 0 20px;
     display: inline-block;
-    border:#face33 10px solid;
+    border:#fbdc8e 3px solid;
     border-radius: 30px;
-    background-color: #face33;
     font-size: 2rem;
   }
 
 
    #banner{
     width: 100vw;
-    height: 85%;
-    background-color:  #43b1fba2;
+    height: 600px;
+    background-color:#fbdc8e;
 
   } 
   .banner-header{
@@ -180,19 +188,26 @@
 
 }
 .display-banner{
-  margin: 5% 0;
+  margin: 3% 0;
   width: 100vw;
+  height: 700px;
+  background-image: url(img/todo-list.jpeg);
+
 }
+
+.display-banner-header{
+  text-align: center;
+  }
 .display-img{
-  width: 50%;
-  margin: 45px 0 0 55px;
+  width: 100%;
 }
   
-.display-banner-header{
-text-align: center;
-}
+
 .display-paragraph{
-  in
+  display: inline-block;
+  margin: auto;
+  height: auto;
+  
 }
   
   code {
