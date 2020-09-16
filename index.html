@@ -12,9 +12,11 @@
         <meta name="author" content="Bianka Rivera">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
         
@@ -23,42 +25,48 @@
     </head>
     <body>
         
-          
+      <div class="container">
+        <!--  NAV BAR -->
            
-            <div class="top-nav">
+        <div class="topnav">
+         <div class="top-logo"> <a href="#" class="active"> Whatodo?</a> </div> 
 
-                <nav>
-                  <span class="top-logo"> <img src="img/sensitivity.svg" alt="" width="70" height="60"> </span>
-                  <a href="http://" target="#"> Home</a>
-                  <a href="http://" target="#"> About</a>
-                  <a href="http://" target="#"> Services</a>
-                  <a href="http://" target="#" class="sign-in"> Sign In</a>
-               </nav>
-              </div>  
-              <hr>
+          <!-- Navigation links (hidden by default) -->
+          <div id="myLinks">
+            
+            <div><a href="#home">News</a></div>
+            <div><a href="#about">About</a></div>
+            <div><a href="#features">Features</a></div>
+            
+          </div>
+          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+            
 
-              <div class="container">
+          
 
 
-         <div class="header">
+        
              <div class="heading-paragraph">
                 <span class="sub-main"> <h1> Effective and Simple.</h1></span>
                 <span class="sub-main"> <h3> lLorem Ipsum is simply dummy text of <br>  the printing and typesetting industry <br> wfasgarggsdfgdfgdfgdfgdfg <br>
                 <span class=""> <a href="#"> Learn More </a></span></h3></span>
-                 <a href="#" id="sign-button"> Sign Up </a>
+                 <a href="https://todoappov1.netlify.app/register" id="sign-button"> Sign Up </a>
+                 <img  class="main-img" src="img/workflow.svg" alt="" width="700" height="500">
             </div>
-             <img  class="main-img" src="img/example-scene-2.svg" alt="" width="700" height="500">
-         </div> 
-
-        </div>  
-
+             
+         
+        
         
 
 
 
-        <div id="banner"> 
+        <!-- <div id="banner"> 
             <!-- <div>Icons made by <a href="https://flat-icons.com/" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
-            <div class="banner-header">
+            <!-- <div class="banner-header">
               <h1 class="banner-title"> Features</h1>
               <h3 class="banner-title"> Useful features that will help you accomplish more through out your busy schedule.</h3>
             </div>
@@ -116,7 +124,7 @@
              
           
         
-        </div> 
+        </div>  --> 
           
         
         </div>
