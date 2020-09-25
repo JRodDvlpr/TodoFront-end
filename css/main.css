@@ -1,0 +1,209 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-size: 70%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  font-family: 'Quicksand', 'Mulish', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* background-image: linear-gradient(to bottom, rgba(136, 152, 245, 0.52), rgba(45, 189, 64, 0.521));
+    back
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-position: right; */
+}
+
+.top-nav {
+  /* border: 1px black solid;
+    border-radius: 20px; */
+  /* width: 100%; */
+  float: right;
+  font-size: 1.4rem;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.top-logo {
+  position: absolute;
+  top: -1px;
+  left: 35px;
+}
+
+nav a {
+  margin: 0 12px;
+}
+
+a:link {
+  color: #2c2b2b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: #fbdc8e;
+  border: #fbdc8e 3px solid;
+  border-radius: 30px;
+  padding: 2px;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.sign-in {
+  border: #fbdc8e 2px solid;
+  border-radius: 30px;
+  margin: auto 0;
+  padding: 5px 10px;
+}
+
+.sign-in:hover {
+  color: black;
+  background-color: #fbdc8e;
+}
+
+hr {
+  width: 100%;
+  height: auto;
+  border: rgba(0, 0, 0, 0.521) 1px solid;
+  /* box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5); */
+}
+
+/* Main Header */
+.container {
+  width: 97vw;
+  height: 550px;
+  margin: 50px auto;
+}
+
+.heading-paragraph {
+  display: inline-block;
+  margin: 75px;
+}
+
+.main-img {
+  margin: auto;
+  float: right;
+}
+
+#sub-title {
+  text-shadow: 2px 2px 4px #00000088;
+}
+
+.sub-main {
+  padding: 15px;
+  /* text-shadow: 2px 2px 4px #00000033; */
+}
+
+#sign-button {
+  margin: 100px auto;
+  padding: 0 20px;
+  display: inline-block;
+  border: #fbdc8e 3px solid;
+  border-radius: 30px;
+  font-size: 2rem;
+}
+
+#banner {
+  width: 100vw;
+  height: 600px;
+  background-color: #fbdc8e;
+}
+
+.banner-header {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.banner-title {
+  margin: 1% 0;
+  padding: 10px 0;
+  font-family: 'Open Sans';
+  color: #272727;
+}
+
+.row-1 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: 75%;
+}
+
+.card {
+  margin: 25px auto;
+  border: 20px;
+  /* border-radius: 15px;  */
+  background-color: rgba(255, 255, 255, 0.938);
+  -webkit-box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.678);
+          box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.678);
+  width: 20%;
+  height: 85%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-align: center;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+.img-card {
+  margin: 40px;
+  border-radius: 5px 5px 0 0;
+}
+
+.card-paragraph {
+  margin: auto;
+  padding: 5%;
+  height: auto;
+}
+
+.display-banner {
+  margin: 3% 0;
+  width: 100vw;
+  height: 700px;
+  background-image: url(img/todo-list.jpeg);
+}
+
+.display-banner-header {
+  text-align: center;
+}
+
+.display-img {
+  width: 100%;
+}
+
+.display-paragraph {
+  display: inline-block;
+  margin: auto;
+  height: auto;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+/*# sourceMappingURL=main.css.map */
